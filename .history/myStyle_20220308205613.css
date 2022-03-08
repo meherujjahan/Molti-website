@@ -1,0 +1,433 @@
+/* ------------
+header section 
+--------------*/
+.header {
+  font-family: "Roboto", sans-serif;
+}
+.logo-img {
+  width: 150px;
+  margin: 25px;
+  padding-right: 10px;
+  border-right: 1px solid gray;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  margin-left: 100px;
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+/* -------------
+              Banner  section 
+              --------------*/
+.Banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  margin-top: 40px;
+}
+.Banner-text {
+  text-align: left;
+}
+.Banner-text span {
+  color: rgb(238, 110, 63);
+}
+.Banner-text b {
+  color: rgba(19, 19, 150, 0.87);
+}
+.Banner-text h1 {
+  font-weight: 700;
+}
+.Banner-text p {
+  color: gray;
+}
+
+.Banner-img {
+  width: 500px;
+}
+.Banner-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+.Banner-btn button {
+  margin-left: 10px;
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+/*----------------
+ services section 
+ ----------------*/
+.services {
+  margin: 50px;
+  align-items: center;
+}
+.service-text {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.service-text p {
+  color: gray;
+  font-weight: 400;
+}
+.service-text h1 {
+  /* font-weight: 500; */
+  font-size: 50px;
+}
+.service-text span {
+  color: rgb(253, 114, 64);
+}
+.service-card {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.single-card img {
+  width: 120px;
+  padding: 20px;
+}
+.single-card h3 {
+  color: rgb(253, 114, 64);
+  font-weight: 500;
+}
+/* .service-card :hover {
+  padding: 10px;
+  border: 3px solid rgb(253, 114, 64);
+  border-radius: 5px;
+} */
+.icon {
+  color: rgb(253, 114, 64);
+  font-size: 50px;
+}
+/* --------------
+about us section
+----------------- */
+.aboutUs {
+  padding: 20px;
+  background-color: rgb(240, 244, 248);
+}
+
+.about-text {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.about-text p {
+  color: gray;
+  font-weight: 400;
+}
+.about-text h1 {
+  /* font-weight: 500; */
+  font-size: 50px;
+}
+.about-text span {
+  color: rgb(253, 114, 64);
+}
+/* all card */
+
+.aboutUs-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+/* single card style */
+.aboutUs-single-card {
+  text-align: start;
+}
+.aboutUs-single-card h5 {
+  font-weight: bold;
+}
+.aboutUs-single-card h3 {
+  font-weight: bold;
+}
+.aboutUs-single-card span {
+  color: rgb(253, 114, 64);
+}
+.aboutUs-single-card img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+.aboutUs-single-card p {
+  color: gray;
+  font-weight: 400;
+}
+.aboutUs-1stCard {
+  border-right: 2px solid gainsboro;
+  padding-right: 15px;
+}
+/* Button */
+.aboutUs-btn {
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+.icon2 {
+  color: white;
+}
+
+/* --------------
+WORK PROCESS 
+----------------*/
+
+.work-process {
+  margin: 50px;
+  padding: 20px;
+}
+.workProcess-text {
+  text-align: center;
+}
+.workProcess-text h2 {
+  color: rgb(238, 110, 63);
+}
+.workProcess-text p {
+  border-bottom: 3px solid rgb(238, 110, 63);
+  width: 80px;
+  margin: auto;
+}
+.WP-single-card {
+  display: flex;
+  text-align: start;
+}
+.WP-all-card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.WP-all-card img {
+  width: 350px;
+}
+.WP-text-border {
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.WP-single-card p {
+  color: gray;
+  font-weight: 400;
+}
+.WP-single-card h4 {
+  font-weight: bold;
+}
+.WP-single-card img {
+  width: 40px;
+  padding-right: 10px;
+}
+/* --------------
+FEATURE SECTION
+----------------- */
+.features {
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.feature-text {
+  text-align: center;
+}
+.feature-text span {
+  color: rgb(238, 110, 63);
+}
+.feature-text p {
+  color: gray;
+  font-weight: 400;
+}
+.feature-text h1 {
+  font-size: 50px;
+}
+.feature-banner {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  padding: 40px;
+}
+.feature-banner img {
+  width: 500px;
+}
+.feature-banner-text h4 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.feature-banner-text p {
+  color: gray;
+  font-weight: 400;
+}
+.feature-banner-text {
+  padding-top: 100px;
+}
+.feature-banner-text img {
+  width: 60px;
+  background-color: rgba(247, 125, 81, 0.945);
+  border-radius: 5px;
+  padding: 10px;
+}
+/* ---------------
+BUSINESS SECTION-
+------------------ */
+.business {
+  padding: 50px;
+  background-color: rgba(3, 3, 85, 0.904);
+}
+
+.business-text {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+.business-text h1 {
+  font-size: 50px;
+}
+.business-text span {
+  color: rgb(238, 110, 63);
+}
+.business-text p {
+  color: rgb(163, 161, 161);
+  font-weight: 400;
+}
+.business-icon {
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.business-icon h6 {
+  color: rgb(194, 191, 191);
+  padding-top: 20px;
+}
+.business-icon img {
+  width: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.business b {
+  border-bottom: 2px solid gray;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*------------------------
+   CHOOSE PLAN SECTION 
+ ------------------------*/
+.choosePlan {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.choosePlan-text {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.choosePlan-text b {
+  color: rgb(55, 55, 209);
+}
+.choosePlan-text h1 {
+  font-size: 50px;
+}
+.choosePlan-text p {
+  color: gray;
+  font-weight: 400;
+}
+.choosePlan-text span {
+  color: rgb(238, 110, 63);
+}
+.choosePlan-card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.choosePlan-single-card {
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.choosePlan-single-card h3 {
+  color: rgb(238, 110, 63);
+}
+.choosePlan-single-card p {
+  color: rgb(151, 144, 144);
+  font-weight: 500;
+  padding-top: 10px;
+}
+.choosePlan-single-card b {
+  font-weight: 50px;
+  padding-bottom: 20px;
+}
+.choosePlan-single-card span {
+  color: rgb(238, 110, 63);
+}
+.choosePlan-single-card button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+/*-----------------------
+  MORE SERVICES SECTION 
+  -----------------------*/
+.morePlan-card {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.view-text b {
+  color: rgb(238, 110, 63);
+  text-align: center;
+}
+.morePlan-single-card {
+  background-color: rgba(250, 248, 248, 0.781);
+  padding: 20px 50px 20px 50px;
+  border-radius: 5px;
+  display: flex;
+  text-align: start;
+}
+.morePlan-single-card button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+.morePlan-single-card img {
+  width: 70px;
+  padding-right: 10px;
+}
+.morePlan-single-card h3 {
+  font-weight: 700;
+}
+.morePlan-single-card p {
+  color: gray;
+  font-weight: 400;
+}

@@ -1,0 +1,111 @@
+/* ------------
+header section 
+--------------*/
+.header {
+  font-family: "Roboto", sans-serif;
+}
+.logo-img {
+  width: 150px;
+  margin: 25px;
+  padding-right: 10px;
+  border-right: 1px solid gray;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  margin-left: 100px;
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+/* -------------
+              Banner  section 
+              --------------*/
+.Banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  margin-top: 40px;
+}
+.Banner-text {
+  text-align: left;
+}
+.Banner-text span {
+  color: rgb(238, 110, 63);
+}
+.Banner-text b {
+  color: rgba(19, 19, 150, 0.87);
+}
+.Banner-text h1 {
+  font-weight: 700;
+}
+.Banner-text p {
+  color: gray;
+}
+
+.Banner-img {
+  width: 500px;
+}
+.Banner-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+.Banner-btn button {
+  margin-left: 10px;
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+/* services section */
+.services {
+  margin: 50px;
+  align-items: center;
+}
+.service-text {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.service-text p {
+  color: gray;
+  font-weight: 400;
+}
+.service-text h1 {
+  /* font-weight: 500; */
+  font-size: 50px;
+}
+.service-text span {
+  color: rgb(253, 114, 64);
+}
+.service-card {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.single-card img {
+  width: 120px;
+  padding: 20px;
+}
+.single-card h3 {
+  color: rgb(253, 114, 64);
+  font-weight: 500;
+}
+/* .service-card :hover {
+  padding: 10px;
+  border: 3px solid rgb(253, 114, 64);
+  border-radius: 5px;
+} */
+.icon {
+  color: rgb(253, 114, 64);
+  font-size: 50px;
+}
